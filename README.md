@@ -28,7 +28,7 @@ module.exports = {
             loader: 'css-variables-to-less-loader',
             options: {
                 // the file include the less variables you want to replace the CSS variables
-                // for example, replace var(--primary) with @primary, if the file contains @primary variable
+                // for example, replace var(--primary) with @primary for all less file, if the file contains @primary variable
                 varFile: path.join(__dirname, 'src/css/color-variables.less'),
             },
           },
