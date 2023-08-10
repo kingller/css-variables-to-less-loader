@@ -1,6 +1,6 @@
 {
     "name": "css-variables-to-less-loader",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A loader for webpack. Compiles CSS variables to less variables for support IE.",
     "keywords": [
         "css",

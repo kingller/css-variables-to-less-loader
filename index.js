@@ -25,7 +25,7 @@ module.exports = async function (source) {
         });
         callback(
             null,
-            `@import '${lessFilePath}';\n${cssWithLessVariables}`
+            `@import '${lessVarFilePath}';\n${cssWithLessVariables}`
         );
     } catch (error) {
         callback(error);
