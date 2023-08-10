@@ -1,0 +1,34 @@
+{
+    "name": "css-variables-to-less-loader",
+    "version": "1.0.0",
+    "description": "A loader for webpack. Compiles CSS variables to less variables for support IE.",
+    "keywords": [
+        "css",
+        "less",
+        "loader",
+        "variables",
+        "webpack"
+    ],
+    "homepage": "https://github.com/kingller/css-variables-to-less-loader",
+    "bugs": {
+        "url": "https://github.com/kingller/css-variables-to-less-loader/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:kingller/css-variables-to-less-loader.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Kingller Tang",
+        "url": "https://github.com/kingller"
+    },
+    "main": "./index.js",
+    "scripts": {},
+    "dependencies": {
+        "less-vars-to-js": "^1.3.0"
+    },
+    "devDependencies": {},
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    }
+}
